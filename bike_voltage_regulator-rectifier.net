@@ -2,8 +2,8 @@
 	(version "E")
 	(design
 		(source "/home/mario/Documents/bike_voltage_regulator-rectifier/bike_voltage_regulator-rectifier.kicad_sch")
-		(date "2026-10-08T00:27:18")
-		(tool "Eeschema 10.0.5-10.0.5~ubuntu24.04.1")
+		(date "2026-10-12T00:18:04")
+		(tool "Eeschema 10.0.6-10.0.6~ubuntu24.04.1")
 		(sheet
 			(number "1")
 			(name "/")
