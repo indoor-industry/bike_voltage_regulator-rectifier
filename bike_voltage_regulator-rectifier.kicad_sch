@@ -5559,6 +5559,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 139.7) (xy 104.14 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a5eb77-ad23-4d5f-a183-fa6d150a027c")
+	)
+	(wire
+		(pts
 			(xy 151.13 114.3) (xy 151.13 144.78)
 		)
 		(stroke
@@ -5729,16 +5739,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 144.78) (xy 102.87 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72309fe5-8902-4781-928b-bd5e5134a174")
-	)
-	(wire
-		(pts
 			(xy 142.24 153.67) (xy 151.13 153.67)
 		)
 		(stroke
@@ -5886,16 +5886,6 @@
 			(type default)
 		)
 		(uuid "9ad182c4-7de1-4a00-8a67-56a630757e35")
-	)
-	(wire
-		(pts
-			(xy 102.87 144.78) (xy 102.87 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b96bd5d-770c-438b-9a29-74d665f015ac")
 	)
 	(wire
 		(pts
@@ -6515,7 +6505,7 @@
 	)
 	(global_label "AC1"
 		(shape input)
-		(at 100.33 137.16 0)
+		(at 100.33 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6525,7 +6515,7 @@
 		)
 		(uuid "abc89f41-762f-403f-8fcc-c765f0f30293")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.8833 137.16 0)
+			(at 106.8833 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6587,7 +6577,7 @@
 	)
 	(global_label "AC2"
 		(shape input)
-		(at 100.33 139.7 0)
+		(at 100.33 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6597,7 +6587,7 @@
 		)
 		(uuid "bb5806b0-ddb4-4e84-833c-33f02360f266")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.8833 139.7 0)
+			(at 106.8833 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6683,7 +6673,7 @@
 	)
 	(global_label "VOUT"
 		(shape input)
-		(at 100.33 142.24 0)
+		(at 100.33 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6693,7 +6683,7 @@
 		)
 		(uuid "eb584c44-d083-46a3-81f5-454c3c02e28a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.0324 142.24 0)
+			(at 108.0324 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8960,7 +8950,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 147.32 0)
+		(at 104.14 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8971,7 +8961,7 @@
 		(fields_autoplaced yes)
 		(uuid "65f85c5c-01ba-4005-ae9f-21b6429e18bd")
 		(property "Reference" "#PWR017"
-			(at 102.87 153.67 0)
+			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8982,17 +8972,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 152.4 0)
+			(at 107.95 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 147.32 0)
+			(at 104.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9003,7 +8994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 147.32 0)
+			(at 104.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9014,7 +9005,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 147.32 0)
+			(at 104.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10211,10 +10202,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b60372ed-ce40-4284-91cb-92c30d64dd90")
 		(property "Reference" "U8"
