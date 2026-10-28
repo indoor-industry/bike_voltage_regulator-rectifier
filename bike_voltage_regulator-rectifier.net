@@ -2,8 +2,8 @@
 	(version "E")
 	(design
 		(source "/home/mario/Documents/bike_voltage_regulator-rectifier/bike_voltage_regulator-rectifier.kicad_sch")
-		(date "2026-10-12T03:58:34")
-		(tool "Eeschema 10.0.6-10.0.6~ubuntu24.04.1")
+		(date "2026-10-26T16:24:21")
+		(tool "Eeschema 10.0.7-10.0.7~ubuntu24.04.1")
 		(sheet
 			(number "1")
 			(name "/")
@@ -435,6 +435,140 @@
 			)
 		)
 		(comp
+			(ref "C5")
+			(value "22nF")
+			(footprint "PCM_JLCPCB:C_0805")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf")
+			(description "50V 22nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
+			(fields
+				(field
+					(name "LCSC") "C1729")
+				(field
+					(name "Stock") "168426")
+				(field
+					(name "Price") "0.011USD")
+				(field
+					(name "Process") "SMT")
+				(field
+					(name "Minimum Qty") "20")
+				(field
+					(name "Attrition Qty") "10")
+				(field
+					(name "Class") "Basic Component")
+				(field
+					(name "Category") "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+				(field
+					(name "Manufacturer") "Samsung Electro-Mechanics")
+				(field
+					(name "Part") "CL21B223KBANNNC")
+				(field
+					(name "Voltage Rated") "50V")
+				(field
+					(name "Tolerance") "±10%")
+				(field
+					(name "Capacitance") "22nF")
+				(field
+					(name "Temperature Coefficient") "X7R")
+				(field
+					(name "Footprint") "PCM_JLCPCB:C_0805")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf")
+				(field
+					(name "Description") "50V 22nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
+			)
+			(libsource
+				(lib "PCM_JLCPCB-Capacitors")
+				(part "0805,22nF")
+				(description "50V 22nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
+			)
+			(property
+				(name "LCSC")
+				(value "C1729")
+			)
+			(property
+				(name "Stock")
+				(value "168426")
+			)
+			(property
+				(name "Price")
+				(value "0.011USD")
+			)
+			(property
+				(name "Process")
+				(value "SMT")
+			)
+			(property
+				(name "Minimum Qty")
+				(value "20")
+			)
+			(property
+				(name "Attrition Qty")
+				(value "10")
+			)
+			(property
+				(name "Class")
+				(value "Basic Component")
+			)
+			(property
+				(name "Category")
+				(value "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung Electro-Mechanics")
+			)
+			(property
+				(name "Part")
+				(value "CL21B223KBANNNC")
+			)
+			(property
+				(name "Voltage Rated")
+				(value "50V")
+			)
+			(property
+				(name "Tolerance")
+				(value "±10%")
+			)
+			(property
+				(name "Capacitance")
+				(value "22nF")
+			)
+			(property
+				(name "Temperature Coefficient")
+				(value "X7R")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bike_voltage_regulator-rectifier.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7099d59f-9acb-4e72-a593-79367cbe3292")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "D1")
 			(value "SMCJ16A-E3/57T")
 			(footprint "regulator_library:SMC_L6.9-W5.9-LS7.9-RD")
@@ -491,29 +625,29 @@
 			)
 		)
 		(comp
-			(ref "D2")
-			(value "BZT52C15")
-			(footprint "regulator_library:SOD-123_L2.7-W1.6-LS3.7-RD")
-			(datasheet "https://item.szlcsc.com/13409.html")
+			(ref "D3")
+			(value "BZT52C16-TP")
+			(footprint "regulator_library:SOD-123_L2.8-W1.8-LS3.7-RD")
+			(datasheet "https://item.szlcsc.com/301422.html")
 			(fields
 				(field
-					(name "LCSC") "C173427")
+					(name "LCSC") "C668894")
 				(field
-					(name "Footprint") "regulator_library:SOD-123_L2.7-W1.6-LS3.7-RD")
+					(name "Footprint") "regulator_library:SOD-123_L2.8-W1.8-LS3.7-RD")
 				(field
-					(name "Datasheet") "https://item.szlcsc.com/13409.html")
+					(name "Datasheet") "https://item.szlcsc.com/301422.html")
 				(field
 					(name "Description")
 				)
 			)
 			(libsource
 				(lib "regulator_library")
-				(part "BZT52C15")
+				(part "BZT52C16-TP")
 				(description "")
 			)
 			(property
 				(name "LCSC")
-				(value "C173427")
+				(value "C668894")
 			)
 			(property
 				(name "Sheetname")
@@ -525,13 +659,13 @@
 			)
 			(property
 				(name "ki_keywords")
-				(value "C173427")
+				(value "C668894")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "505a64b9-6bbd-45d6-af75-e1849e26ee7a")
+			(tstamps "cc8f7de3-9520-4a55-95b0-bfba365de887")
 			(units
 				(unit
 					(name "A")
@@ -653,6 +787,158 @@
 						)
 						(pin
 							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "3.3kΩ")
+			(footprint "PCM_JLCPCB:R_0805")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0805W8F3301T5E_C26010.pdf")
+			(description "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 3.3kΩ 0805 Chip Resistor - Surface Mount ROHS")
+			(fields
+				(field
+					(name "LCSC") "C26010")
+				(field
+					(name "Stock") "1045666")
+				(field
+					(name "Price") "0.005USD")
+				(field
+					(name "Process") "SMT")
+				(field
+					(name "Minimum Qty") "20")
+				(field
+					(name "Attrition Qty") "10")
+				(field
+					(name "Class") "Basic Component")
+				(field
+					(name "Category") "Resistors,Chip Resistor - Surface Mount")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
+				(field
+					(name "Part") "0805W8F3301T5E")
+				(field
+					(name "Resistance") "3.3kΩ")
+				(field
+					(name "Power(Watts)") "125mW")
+				(field
+					(name "Type") "Thick Film Resistors")
+				(field
+					(name "Overload Voltage (Max)") "150V")
+				(field
+					(name "Operating Temperature Range") "-55°C~+155°C")
+				(field
+					(name "Tolerance") "±1%")
+				(field
+					(name "Temperature Coefficient") "±100ppm/°C")
+				(field
+					(name "Footprint") "PCM_JLCPCB:R_0805")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0805W8F3301T5E_C26010.pdf")
+				(field
+					(name "Description") "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 3.3kΩ 0805 Chip Resistor - Surface Mount ROHS")
+			)
+			(libsource
+				(lib "PCM_JLCPCB-Resistors")
+				(part "0805,3.3kΩ")
+				(description "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 3.3kΩ 0805 Chip Resistor - Surface Mount ROHS")
+			)
+			(property
+				(name "LCSC")
+				(value "C26010")
+			)
+			(property
+				(name "Stock")
+				(value "1045666")
+			)
+			(property
+				(name "Price")
+				(value "0.005USD")
+			)
+			(property
+				(name "Process")
+				(value "SMT")
+			)
+			(property
+				(name "Minimum Qty")
+				(value "20")
+			)
+			(property
+				(name "Attrition Qty")
+				(value "10")
+			)
+			(property
+				(name "Class")
+				(value "Basic Component")
+			)
+			(property
+				(name "Category")
+				(value "Resistors,Chip Resistor - Surface Mount")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(Uniroyal Elec)")
+			)
+			(property
+				(name "Part")
+				(value "0805W8F3301T5E")
+			)
+			(property
+				(name "Resistance")
+				(value "3.3kΩ")
+			)
+			(property
+				(name "Power(Watts)")
+				(value "125mW")
+			)
+			(property
+				(name "Type")
+				(value "Thick Film Resistors")
+			)
+			(property
+				(name "Overload Voltage (Max)")
+				(value "150V")
+			)
+			(property
+				(name "Operating Temperature Range")
+				(value "-55°C~+155°C")
+			)
+			(property
+				(name "Tolerance")
+				(value "±1%")
+			)
+			(property
+				(name "Temperature Coefficient")
+				(value "±100ppm/°C")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bike_voltage_regulator-rectifier.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3c1a0575-8645-4179-9ccf-f5beaa074a31")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
 						)
 					)
 				)
@@ -811,16 +1097,16 @@
 			)
 		)
 		(comp
-			(ref "R5")
-			(value "2.2kΩ")
+			(ref "R4")
+			(value "10kΩ")
 			(footprint "PCM_JLCPCB:R_0805")
-			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F2201T5E_C17520.pdf")
-			(description "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 2.2kΩ 0805 Chip Resistor - Surface Mount ROHS")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
+			(description "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS")
 			(fields
 				(field
-					(name "LCSC") "C17520")
+					(name "LCSC") "C17414")
 				(field
-					(name "Stock") "1012630")
+					(name "Stock") "12301172")
 				(field
 					(name "Price") "0.005USD")
 				(field
@@ -836,9 +1122,9 @@
 				(field
 					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
 				(field
-					(name "Part") "0805W8F2201T5E")
+					(name "Part") "0805W8F1002T5E")
 				(field
-					(name "Resistance") "2.2kΩ")
+					(name "Resistance") "10kΩ")
 				(field
 					(name "Power(Watts)") "125mW")
 				(field
@@ -854,22 +1140,22 @@
 				(field
 					(name "Footprint") "PCM_JLCPCB:R_0805")
 				(field
-					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F2201T5E_C17520.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
-					(name "Description") "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 2.2kΩ 0805 Chip Resistor - Surface Mount ROHS")
+					(name "Description") "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS")
 			)
 			(libsource
 				(lib "PCM_JLCPCB-Resistors")
-				(part "0805,2.2kΩ")
-				(description "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 2.2kΩ 0805 Chip Resistor - Surface Mount ROHS")
+				(part "0805,10kΩ")
+				(description "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS")
 			)
 			(property
 				(name "LCSC")
-				(value "C17520")
+				(value "C17414")
 			)
 			(property
 				(name "Stock")
-				(value "1012630")
+				(value "12301172")
 			)
 			(property
 				(name "Price")
@@ -901,11 +1187,11 @@
 			)
 			(property
 				(name "Part")
-				(value "0805W8F2201T5E")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Resistance")
-				(value "2.2kΩ")
+				(value "10kΩ")
 			)
 			(property
 				(name "Power(Watts)")
@@ -947,7 +1233,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f1612116-1864-4f8d-8b3f-0dfef3793320")
+			(tstamps "450173be-af3c-4009-b071-efb711a65374")
 			(units
 				(unit
 					(name "A")
@@ -2027,29 +2313,181 @@
 			)
 		)
 		(comp
-			(ref "U1")
-			(value "GBU1510_C22447862")
-			(footprint "regulator_library:GBU_4P-L22.0-W3.5-P5.08_GBU808")
-			(datasheet "https://atta.szlcsc.com/upload/public/pdf/source/20210506/C113930_9A9FE71E76190ABC17ABAB63411D8801.pdf")
+			(ref "R13")
+			(value "10Ω")
+			(footprint "PCM_JLCPCB:R_0805")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F100JT5E_C17415.pdf")
+			(description "125mW Thick Film Resistors 150V ±1% ±200ppm/°C 10Ω 0805 Chip Resistor - Surface Mount ROHS")
 			(fields
 				(field
-					(name "LCSC") "C22447862")
+					(name "LCSC") "C17415")
 				(field
-					(name "Footprint") "regulator_library:GBU_4P-L22.0-W3.5-P5.08_GBU808")
+					(name "Stock") "3283689")
 				(field
-					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20210506/C113930_9A9FE71E76190ABC17ABAB63411D8801.pdf")
+					(name "Price") "0.005USD")
+				(field
+					(name "Process") "SMT")
+				(field
+					(name "Minimum Qty") "20")
+				(field
+					(name "Attrition Qty") "6")
+				(field
+					(name "Class") "Basic Component")
+				(field
+					(name "Category") "Resistors,Chip Resistor - Surface Mount")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
+				(field
+					(name "Part") "0805W8F100JT5E")
+				(field
+					(name "Resistance") "10Ω")
+				(field
+					(name "Power(Watts)") "125mW")
+				(field
+					(name "Type") "Thick Film Resistors")
+				(field
+					(name "Overload Voltage (Max)") "150V")
+				(field
+					(name "Operating Temperature Range") "-55°C~+155°C")
+				(field
+					(name "Tolerance") "±1%")
+				(field
+					(name "Temperature Coefficient") "±200ppm/°C")
+				(field
+					(name "Footprint") "PCM_JLCPCB:R_0805")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F100JT5E_C17415.pdf")
+				(field
+					(name "Description") "125mW Thick Film Resistors 150V ±1% ±200ppm/°C 10Ω 0805 Chip Resistor - Surface Mount ROHS")
+			)
+			(libsource
+				(lib "PCM_JLCPCB-Resistors")
+				(part "0805,10Ω")
+				(description "125mW Thick Film Resistors 150V ±1% ±200ppm/°C 10Ω 0805 Chip Resistor - Surface Mount ROHS")
+			)
+			(property
+				(name "LCSC")
+				(value "C17415")
+			)
+			(property
+				(name "Stock")
+				(value "3283689")
+			)
+			(property
+				(name "Price")
+				(value "0.005USD")
+			)
+			(property
+				(name "Process")
+				(value "SMT")
+			)
+			(property
+				(name "Minimum Qty")
+				(value "20")
+			)
+			(property
+				(name "Attrition Qty")
+				(value "6")
+			)
+			(property
+				(name "Class")
+				(value "Basic Component")
+			)
+			(property
+				(name "Category")
+				(value "Resistors,Chip Resistor - Surface Mount")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(Uniroyal Elec)")
+			)
+			(property
+				(name "Part")
+				(value "0805W8F100JT5E")
+			)
+			(property
+				(name "Resistance")
+				(value "10Ω")
+			)
+			(property
+				(name "Power(Watts)")
+				(value "125mW")
+			)
+			(property
+				(name "Type")
+				(value "Thick Film Resistors")
+			)
+			(property
+				(name "Overload Voltage (Max)")
+				(value "150V")
+			)
+			(property
+				(name "Operating Temperature Range")
+				(value "-55°C~+155°C")
+			)
+			(property
+				(name "Tolerance")
+				(value "±1%")
+			)
+			(property
+				(name "Temperature Coefficient")
+				(value "±200ppm/°C")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bike_voltage_regulator-rectifier.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "45a08ec8-d2ba-486b-8f11-7e87945d7d0b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "TL431BQDBZR")
+			(footprint "regulator_library:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR")
+			(datasheet "https://item.szlcsc.com/14454.html")
+			(fields
+				(field
+					(name "LCSC") "C190245")
+				(field
+					(name "Footprint") "regulator_library:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/14454.html")
 				(field
 					(name "Description")
 				)
 			)
 			(libsource
 				(lib "regulator_library")
-				(part "GBU1510_C22447862")
+				(part "TL431BQDBZR")
 				(description "")
 			)
 			(property
 				(name "LCSC")
-				(value "C22447862")
+				(value "C190245")
 			)
 			(property
 				(name "Sheetname")
@@ -2061,13 +2499,13 @@
 			)
 			(property
 				(name "ki_keywords")
-				(value "C22447862")
+				(value "C190245")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "41a2e7a4-3365-468a-aba5-40ec5e754c8b")
+			(tstamps "f627973a-c433-4402-966c-f1dc14195daa")
 			(units
 				(unit
 					(name "A")
@@ -2080,9 +2518,6 @@
 						)
 						(pin
 							(num "3")
-						)
-						(pin
-							(num "4")
 						)
 					)
 				)
@@ -2281,65 +2716,6 @@
 			)
 		)
 		(comp
-			(ref "U5")
-			(value "TL431_C181103")
-			(footprint "regulator_library:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR")
-			(datasheet "https://item.szlcsc.com/139341.html")
-			(fields
-				(field
-					(name "LCSC") "C181103")
-				(field
-					(name "Footprint") "regulator_library:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR")
-				(field
-					(name "Datasheet") "https://item.szlcsc.com/139341.html")
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "regulator_library")
-				(part "TL431_C181103")
-				(description "")
-			)
-			(property
-				(name "LCSC")
-				(value "C181103")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "bike_voltage_regulator-rectifier.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "C181103")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "b0b79d1e-f8dc-438c-a3fa-3477a0d6e653")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "U6")
 			(value "MMBT3904")
 			(footprint "regulator_library:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR")
@@ -2525,6 +2901,65 @@
 				)
 			)
 		)
+		(comp
+			(ref "U9")
+			(value "IRFB4110PBF")
+			(footprint "regulator_library:TO-220-3_L10.0-W4.5-P2.54-L")
+			(datasheet "https://item.szlcsc.com/233115.html")
+			(fields
+				(field
+					(name "LCSC") "C2650")
+				(field
+					(name "Footprint") "regulator_library:TO-220-3_L10.0-W4.5-P2.54-L")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/233115.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "regulator_library")
+				(part "IRFB4110PBF")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2650")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bike_voltage_regulator-rectifier.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "C2650")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "17a9e58e-2395-4329-8a9a-24b2d1559389")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
 	)
 	(groups)
 	(variants)
@@ -2574,6 +3009,67 @@
 					(name "Tolerance") "±10%")
 				(field
 					(name "Capacitance") "100nF")
+				(field
+					(name "Temperature Coefficient") "X7R")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "PCM_JLCPCB-Capacitors")
+			(part "0805,22nF")
+			(description "50V 22nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
+			(docs "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "22nF")
+				(field
+					(name "Footprint") "PCM_JLCPCB:C_0805")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B223KBANNNC_C1729.pdf")
+				(field
+					(name "Description") "50V 22nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
+				(field
+					(name "LCSC") "C1729")
+				(field
+					(name "Stock") "168426")
+				(field
+					(name "Price") "0.011USD")
+				(field
+					(name "Process") "SMT")
+				(field
+					(name "Minimum Qty") "20")
+				(field
+					(name "Attrition Qty") "10")
+				(field
+					(name "Class") "Basic Component")
+				(field
+					(name "Category") "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+				(field
+					(name "Manufacturer") "Samsung Electro-Mechanics")
+				(field
+					(name "Part") "CL21B223KBANNNC")
+				(field
+					(name "Voltage Rated") "50V")
+				(field
+					(name "Tolerance") "±10%")
+				(field
+					(name "Capacitance") "22nF")
 				(field
 					(name "Temperature Coefficient") "X7R")
 			)
@@ -2726,73 +3222,6 @@
 		)
 		(libpart
 			(lib "PCM_JLCPCB-Resistors")
-			(part "0805,2.2kΩ")
-			(description "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 2.2kΩ 0805 Chip Resistor - Surface Mount ROHS")
-			(docs "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F2201T5E_C17520.pdf")
-			(footprints
-				(fp "R_*")
-			)
-			(fields
-				(field
-					(name "Reference") "R")
-				(field
-					(name "Value") "2.2kΩ")
-				(field
-					(name "Footprint") "PCM_JLCPCB:R_0805")
-				(field
-					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F2201T5E_C17520.pdf")
-				(field
-					(name "Description") "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 2.2kΩ 0805 Chip Resistor - Surface Mount ROHS")
-				(field
-					(name "LCSC") "C17520")
-				(field
-					(name "Stock") "1012630")
-				(field
-					(name "Price") "0.005USD")
-				(field
-					(name "Process") "SMT")
-				(field
-					(name "Minimum Qty") "20")
-				(field
-					(name "Attrition Qty") "10")
-				(field
-					(name "Class") "Basic Component")
-				(field
-					(name "Category") "Resistors,Chip Resistor - Surface Mount")
-				(field
-					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
-				(field
-					(name "Part") "0805W8F2201T5E")
-				(field
-					(name "Resistance") "2.2kΩ")
-				(field
-					(name "Power(Watts)") "125mW")
-				(field
-					(name "Type") "Thick Film Resistors")
-				(field
-					(name "Overload Voltage (Max)") "150V")
-				(field
-					(name "Operating Temperature Range") "-55°C~+155°C")
-				(field
-					(name "Tolerance") "±1%")
-				(field
-					(name "Temperature Coefficient") "±100ppm/°C")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "PCM_JLCPCB-Resistors")
 			(part "0805,22kΩ")
 			(description "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 22kΩ 0805 Chip Resistor - Surface Mount ROHS")
 			(docs "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F2202T5E_C17560.pdf")
@@ -2832,6 +3261,73 @@
 					(name "Part") "0805W8F2202T5E")
 				(field
 					(name "Resistance") "22kΩ")
+				(field
+					(name "Power(Watts)") "125mW")
+				(field
+					(name "Type") "Thick Film Resistors")
+				(field
+					(name "Overload Voltage (Max)") "150V")
+				(field
+					(name "Operating Temperature Range") "-55°C~+155°C")
+				(field
+					(name "Tolerance") "±1%")
+				(field
+					(name "Temperature Coefficient") "±100ppm/°C")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "PCM_JLCPCB-Resistors")
+			(part "0805,3.3kΩ")
+			(description "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 3.3kΩ 0805 Chip Resistor - Surface Mount ROHS")
+			(docs "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0805W8F3301T5E_C26010.pdf")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "3.3kΩ")
+				(field
+					(name "Footprint") "PCM_JLCPCB:R_0805")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0805W8F3301T5E_C26010.pdf")
+				(field
+					(name "Description") "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 3.3kΩ 0805 Chip Resistor - Surface Mount ROHS")
+				(field
+					(name "LCSC") "C26010")
+				(field
+					(name "Stock") "1045666")
+				(field
+					(name "Price") "0.005USD")
+				(field
+					(name "Process") "SMT")
+				(field
+					(name "Minimum Qty") "20")
+				(field
+					(name "Attrition Qty") "10")
+				(field
+					(name "Class") "Basic Component")
+				(field
+					(name "Category") "Resistors,Chip Resistor - Surface Mount")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(Uniroyal Elec)")
+				(field
+					(name "Part") "0805W8F3301T5E")
+				(field
+					(name "Resistance") "3.3kΩ")
 				(field
 					(name "Power(Watts)") "125mW")
 				(field
@@ -3199,74 +3695,32 @@
 		)
 		(libpart
 			(lib "regulator_library")
-			(part "BZT52C15")
-			(docs "https://item.szlcsc.com/13409.html")
+			(part "BZT52C16-TP")
+			(docs "https://item.szlcsc.com/301422.html")
 			(fields
 				(field
 					(name "Reference") "D")
 				(field
-					(name "Value") "BZT52C15")
+					(name "Value") "BZT52C16-TP")
 				(field
-					(name "Footprint") "footprint:SOD-123_L2.7-W1.6-LS3.7-RD")
+					(name "Footprint") "footprint:SOD-123_L2.8-W1.8-LS3.7-RD")
 				(field
-					(name "Datasheet") "https://item.szlcsc.com/13409.html")
+					(name "Datasheet") "https://item.szlcsc.com/301422.html")
 				(field
 					(name "Description")
 				)
 				(field
-					(name "LCSC") "C173427")
+					(name "LCSC") "C668894")
 			)
 			(pins
 				(pin
 					(num "1")
-					(name "K")
+					(name "C")
 					(type "unspecified")
 				)
 				(pin
 					(num "2")
 					(name "A")
-					(type "unspecified")
-				)
-			)
-		)
-		(libpart
-			(lib "regulator_library")
-			(part "GBU1510_C22447862")
-			(docs "https://atta.szlcsc.com/upload/public/pdf/source/20210506/C113930_9A9FE71E76190ABC17ABAB63411D8801.pdf")
-			(fields
-				(field
-					(name "Reference") "U")
-				(field
-					(name "Value") "GBU1510_C22447862")
-				(field
-					(name "Footprint") "footprint:GBU_4P-L22.0-W3.5-P5.08_GBU808")
-				(field
-					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20210506/C113930_9A9FE71E76190ABC17ABAB63411D8801.pdf")
-				(field
-					(name "Description")
-				)
-				(field
-					(name "LCSC") "C22447862")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "+")
-					(type "unspecified")
-				)
-				(pin
-					(num "2")
-					(name "AC")
-					(type "unspecified")
-				)
-				(pin
-					(num "3")
-					(name "AC")
-					(type "unspecified")
-				)
-				(pin
-					(num "4")
-					(name "-")
 					(type "unspecified")
 				)
 			)
@@ -3515,37 +3969,37 @@
 		)
 		(libpart
 			(lib "regulator_library")
-			(part "TL431_C181103")
-			(docs "https://item.szlcsc.com/139341.html")
+			(part "TL431BQDBZR")
+			(docs "https://item.szlcsc.com/14454.html")
 			(fields
 				(field
 					(name "Reference") "U")
 				(field
-					(name "Value") "TL431_C181103")
+					(name "Value") "TL431BQDBZR")
 				(field
-					(name "Footprint") "footprint:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR")
+					(name "Footprint") "footprint:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR")
 				(field
-					(name "Datasheet") "https://item.szlcsc.com/139341.html")
+					(name "Datasheet") "https://item.szlcsc.com/14454.html")
 				(field
 					(name "Description")
 				)
 				(field
-					(name "LCSC") "C181103")
+					(name "LCSC") "C190245")
 			)
 			(pins
 				(pin
 					(num "1")
-					(name "REF")
+					(name "CATHODE")
 					(type "unspecified")
 				)
 				(pin
 					(num "2")
-					(name "C")
+					(name "REF")
 					(type "unspecified")
 				)
 				(pin
 					(num "3")
-					(name "A")
+					(name "ANODE")
 					(type "unspecified")
 				)
 			)
@@ -3570,6 +4024,12 @@
 			(code "1")
 			(name "/CMP")
 			(class "Default")
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "C_1")
+				(pintype "unspecified")
+			)
 			(node
 				(ref "R10")
 				(pin "1")
@@ -3604,6 +4064,11 @@
 			(name "/SENSE")
 			(class "Default")
 			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "R10")
 				(pin "2")
 				(pintype "passive")
@@ -3627,14 +4092,8 @@
 		)
 		(net
 			(code "3")
-			(name "/VRAW")
+			(name "AC1")
 			(class "POWER,Default")
-			(node
-				(ref "U1")
-				(pin "1")
-				(pinfunction "+_1")
-				(pintype "unspecified")
-			)
 			(node
 				(ref "U2")
 				(pin "2")
@@ -3648,20 +4107,20 @@
 				(pintype "unspecified")
 			)
 			(node
-				(ref "U3")
+				(ref "U8")
 				(pin "3")
-				(pinfunction "A_3")
+				(pinfunction "3_3")
 				(pintype "unspecified")
 			)
 		)
 		(net
 			(code "4")
-			(name "AC1")
+			(name "AC2")
 			(class "POWER,Default")
 			(node
-				(ref "U1")
-				(pin "2")
-				(pinfunction "AC_2")
+				(ref "U3")
+				(pin "3")
+				(pinfunction "A_3")
 				(pintype "unspecified")
 			)
 			(node
@@ -3670,26 +4129,15 @@
 				(pinfunction "4_4")
 				(pintype "unspecified")
 			)
+			(node
+				(ref "U9")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "unspecified")
+			)
 		)
 		(net
 			(code "5")
-			(name "AC2")
-			(class "POWER,Default")
-			(node
-				(ref "U1")
-				(pin "3")
-				(pinfunction "AC_3")
-				(pintype "unspecified")
-			)
-			(node
-				(ref "U8")
-				(pin "3")
-				(pinfunction "3_3")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "6")
 			(name "DRV")
 			(class "Default")
 			(node
@@ -3697,6 +4145,11 @@
 				(pin "1")
 				(pinfunction "+_1")
 				(pintype "unspecified")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
 			)
 			(node
 				(ref "R7")
@@ -3717,15 +4170,9 @@
 			)
 		)
 		(net
-			(code "7")
-			(name "GATE")
-			(class "GATE,Default")
-			(node
-				(ref "D2")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "unspecified")
-			)
+			(code "6")
+			(name "GATE_1")
+			(class "Default")
 			(node
 				(ref "R3")
 				(pin "1")
@@ -3738,6 +4185,27 @@
 			)
 			(node
 				(ref "U2")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "7")
+			(name "GATE_2")
+			(class "Default")
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
 				(pin "1")
 				(pinfunction "G_1")
 				(pintype "unspecified")
@@ -3770,13 +4238,18 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "D1")
 				(pin "2")
 				(pinfunction "A_2")
 				(pintype "unspecified")
 			)
 			(node
-				(ref "D2")
+				(ref "D3")
 				(pin "2")
 				(pinfunction "A_2")
 				(pintype "unspecified")
@@ -3797,14 +4270,19 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "R9")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
 				(ref "U1")
-				(pin "4")
-				(pinfunction "-_4")
+				(pin "3")
+				(pinfunction "ANODE_3")
 				(pintype "unspecified")
 			)
 			(node
@@ -3826,12 +4304,6 @@
 				(pintype "unspecified")
 			)
 			(node
-				(ref "U5")
-				(pin "3")
-				(pinfunction "A_3")
-				(pintype "unspecified")
-			)
-			(node
 				(ref "U7")
 				(pin "3")
 				(pinfunction "C_3")
@@ -3841,6 +4313,12 @@
 				(ref "U8")
 				(pin "2")
 				(pinfunction "2_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U9")
+				(pin "3")
+				(pinfunction "S_3")
 				(pintype "unspecified")
 			)
 		)
@@ -3881,9 +4359,21 @@
 			(name "REF")
 			(class "Default")
 			(node
-				(ref "R5")
+				(ref "R1")
 				(pin "2")
 				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "CATHODE_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "REF_2")
+				(pintype "unspecified")
 			)
 			(node
 				(ref "U4")
@@ -3895,18 +4385,6 @@
 				(ref "U4")
 				(pin "6")
 				(pinfunction "-IN_6")
-				(pintype "unspecified")
-			)
-			(node
-				(ref "U5")
-				(pin "1")
-				(pinfunction "REF_1")
-				(pintype "unspecified")
-			)
-			(node
-				(ref "U5")
-				(pin "2")
-				(pinfunction "C_2")
 				(pintype "unspecified")
 			)
 		)
@@ -3949,7 +4427,7 @@
 				(pintype "unspecified")
 			)
 			(node
-				(ref "R5")
+				(ref "R1")
 				(pin "1")
 				(pintype "passive")
 			)
