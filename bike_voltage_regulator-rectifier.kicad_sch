@@ -7475,10 +7475,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "17a9e58e-2395-4329-8a9a-24b2d1559389")
 		(property "Reference" "U9"
@@ -8072,10 +8072,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3559ecc2-4108-48b4-892b-6e0e49890f5a")
 		(property "Reference" "U3"
@@ -11710,10 +11710,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c1c11f64-c6d5-4d33-bd7e-29647a5cf4bb")
 		(property "Reference" "C2"
@@ -11993,7 +11993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZT52C16-TP"
+		(property "Value" "BZT52C16"
 			(at 146.05 124.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12039,7 +12039,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C668894"
+		(property "LCSC" "C2105"
 			(at 142.24 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12750,10 +12750,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f1a1c622-76c8-4919-baf5-aedb5b5de097")
 		(property "Reference" "C1"
 			(at 102.87 71.7828 90)
@@ -12844,10 +12844,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f4d1ed5f-049c-4154-a2bc-6972e66ef3fb")
 		(property "Reference" "U2"

@@ -2029,7 +2029,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.876734 -0.304724)
@@ -2640,7 +2640,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 5.300889 -3.094031)
@@ -2865,7 +2865,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.876734 -0.304724)
@@ -7001,7 +7001,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 5.300889 -3.094031)
@@ -7687,7 +7687,7 @@
 				)
 			)
 		)
-		(property "Value" "BZT52C16-TP"
+		(property "Value" "BZT52C16"
 			(at 0 2.866193 0)
 			(layer "F.Fab")
 			(uuid "b972af8c-b511-439b-986a-32016490f0a9")
@@ -7720,7 +7720,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C668894"
+		(property "LCSC" "C2105"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8034,7 +8034,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.921006 5.099822)
